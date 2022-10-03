@@ -1,0 +1,62 @@
+.ingredients{
+  margin-top: 100px;
+  height: 290px;
+  width: 100%;
+  overflow: auto;
+}
+
+.topSide{
+  background-image: url(../assets/top.jpg);
+  background-size: 300px;
+  height: 110px;
+  width: 100%;
+  display: table;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.bottomSide{
+  background-image: url(../assets/bottom.jpg);
+  background-size: 300px;
+  height: 60px;
+  width: 100%;
+  display: table;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.lettuceAddOn{
+  background-image: url(../assets/lettuce.jpg);
+  background-size: 300px;
+  height: 27px;
+  width: 100%;
+  display: table;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.baconAddOn{
+  background-image: url(../assets/bacon.jpg);
+  background-size: 300px;
+  height: 20px;
+  width: 100%;
+  display: table;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.cheeseAddOn{
+  background-image: url(../assets/cheese.jpg);
+  background-size: 300px;
+  height: 30px;
+  width: 100%;
+  display: table;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.meatAddOn{
+  background-image: url(../assets/meat.jpg);
+  background-size: 300px;
+  height: 50px;
+  width: 100%;
+  display: table;
+  background-repeat: no-repeat;
+  background-position: center;
+}

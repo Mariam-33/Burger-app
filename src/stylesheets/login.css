@@ -1,0 +1,51 @@
+.App {
+  background-color: white;
+}
+
+.Auth-form-container {
+  display: flex;
+  margin-top: 50px;
+  justify-content: center;
+}
+
+.Auth-form {
+  width: 500px;
+  box-shadow: rgb(0 0 0 / 17%) 1px 1px 10px;
+  padding-top: 30px;
+  padding-bottom: 20px;
+  background-color: white;
+}
+
+.Auth-form-content {
+  text-align: center;
+}
+
+label {
+  font-size: 14px;
+  font-weight: 600;
+  color: rgb(34, 34, 34);
+}
+
+.btn-login {
+  border: none;
+  justify-content: center;
+  background-color: white;
+  font-size: medium;
+  font-weight: bolder;
+  text-align: center;
+}
+
+.submit-btn{
+  color: green;
+}
+
+.signin-btn{
+  color: rgb(66, 25, 25);
+}
+.input-feild {
+  width: 400px;
+  height: 40px;
+  border-width: 0.1px;
+  font-size: medium;
+  margin-top: 20px;
+}

@@ -1,0 +1,43 @@
+.ingredientsBlock{
+  background-color: #f4b46c;
+  margin: 30px auto 0;
+  display: table;
+  max-width: 200px;
+  width: 100%;
+  border-radius: 3px;
+  padding: 20px;
+  text-align: center;
+}
+.ingredientsBlock p{
+  padding-top: 6px;
+  padding-right: 10px;
+  margin: 0;
+  font-weight: bold;
+  font-size: 14px;
+}
+.ingrBtns{
+  margin: 0 0 20px;
+  display: flex;
+  justify-content: space-between;
+}
+.ingrBtn{
+  border: 0;
+  background-color: #c17116;
+  color: #fff;
+  padding: 2px;
+  cursor: pointer;
+  display: table;
+  width: 95px;
+  font-size: 14px;
+  font-weight: bold;
+}
+.ingrBtn:disabled{
+  background: #d9d3c5;
+  color: black;
+  cursor: no-drop;
+}
+.order-btn{
+  height: 40px;
+  overflow: auto;
+  background-color: #fff;;
+}

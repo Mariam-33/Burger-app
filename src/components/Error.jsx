@@ -1,0 +1,11 @@
+import React from 'react';
+import error404 from '../assets/error404.png';
+
+const NoPage = () => {
+    return (
+        <div id="wrapper text-center">
+            <img src={error404} height="700" width="700" alt='Page Not found'/>
+        </div >
+    )
+}
+export default NoPage
