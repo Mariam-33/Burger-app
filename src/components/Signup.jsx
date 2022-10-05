@@ -1,25 +1,26 @@
 import '../assets/stylesheets/login.css'
-const Login = () => {
+const SignUp = () => {
   return (
     <div className='container'>
       <form className='form'>
         <div className='content'>
             <>
               <div>
-                <input type='email' className='input' placeholder='Email Address' name = "email"  />
-            </div>
+                <input type='email' className='input' placeholder='Email Address'  name = "email" />
+              </div>
               <div>
-                <input type='password' className='input' placeholder='Password' name = "pass"/>
-            </div>
+                <input type='password' className='input' placeholder='Password'  name = "pass"/>
+              </div>
             </>
           <div>
             <button type='submit'className='btn-login submit-btn mt-4'>
-              SUBMIT
+              REGISTER
             </button>
+            <br/>
           </div>
           <div>
             <button type='submit'className='btn-login submit-btn mt-4'>
-            <a href="Signup">REGISTER</a>
+            <a href="login">LOGIN</a>
             </button>
           </div>
         </div>
@@ -27,5 +28,4 @@ const Login = () => {
     </div>
   )
 }
-
-export default Login
+export default SignUp

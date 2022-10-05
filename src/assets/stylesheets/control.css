@@ -1,12 +1,19 @@
 .ingredientsBlock{
-  background-color: #f4b46c;
+  background-color: #cf8f2e;
   margin: 30px auto 0;
   display: table;
-  max-width: 200px;
   width: 100%;
   border-radius: 3px;
   padding: 20px;
   text-align: center;
+}
+.buttonholder{
+  width: 150px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-left: 42% ;
+  justify-content: space-between;
 }
 .ingredientsBlock p{
   padding-top: 6px;
@@ -18,8 +25,10 @@
 .ingrBtns{
   margin: 0 0 20px;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
+  flex: 1;
 }
+
 .ingrBtn{
   border: 0;
   background-color: #c17116;
@@ -30,6 +39,7 @@
   width: 95px;
   font-size: 14px;
   font-weight: bold;
+  margin-left: 10px
 }
 .ingrBtn:disabled{
   background: #d9d3c5;
@@ -38,6 +48,9 @@
 }
 .order-btn{
   height: 40px;
+  width: 150px;
   overflow: auto;
   background-color: #fff;;
+  font-size: 16px;
+  color: black;
 }

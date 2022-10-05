@@ -2,13 +2,13 @@
   background-color: white;
 }
 
-.Auth-form-container {
+.container {
   display: flex;
   margin-top: 50px;
   justify-content: center;
 }
 
-.Auth-form {
+.form {
   width: 500px;
   box-shadow: rgb(0 0 0 / 17%) 1px 1px 10px;
   padding-top: 30px;
@@ -16,7 +16,7 @@
   background-color: white;
 }
 
-.Auth-form-content {
+.content {
   text-align: center;
 }
 
@@ -42,7 +42,7 @@ label {
 .signin-btn{
   color: rgb(66, 25, 25);
 }
-.input-feild {
+.input{
   width: 400px;
   height: 40px;
   border-width: 0.1px;

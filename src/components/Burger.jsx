@@ -1,6 +1,6 @@
 import React, { useContext } from 'react'
-import { AppContext } from '../Context/AppContext'
-import '../stylesheets/burger.css'
+import { AppContext } from '../context/AppContext'
+import '../assets/stylesheets/burger.css'
 const Burger = () => {
   const {
     lettuce,

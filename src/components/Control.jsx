@@ -1,7 +1,7 @@
 import React, { useContext} from 'react'
-import '../stylesheets/control.css'
-import { AppContext } from '../Context/AppContext'
-import { HandleIngredients } from './HandleIngredients'
+import '../assets/stylesheets/control.css'
+import { AppContext } from '../context/AppContext'
+import { HandleIngredients } from '../assets/javascripts/HandleIngredients'
 
 const Control = () => {
   const {
@@ -12,12 +12,14 @@ const Control = () => {
     price, setPrice } = useContext(AppContext)
   return (
       <div className="ingredientsBlock">
-        <p>Price = { price }</p>
-        <p>Lettuce</p>
+      <div className="buttonholder">
+      <p>Price =$ {price}</p>
+      <p>Lettuce</p>
         <div className="ingrBtns">
             <button disabled={lettuce.length === 0} className="ingrBtn" onClick={() => HandleIngredients(false, 5, lettuce, setLettuce,'lettuce', price, setPrice)} >Less</button>
             <button className="ingrBtn" onClick={() => HandleIngredients(true, 5, lettuce, setLettuce,'lettuce', price, setPrice)}>More</button>
         </div>
+
         <p>Bacon</p>
         <div className="ingrBtns">
             <button disabled={bacon.length === 0} className="ingrBtn" onClick={() => HandleIngredients(false, 7, bacon, setBacon,'bacon', price, setPrice)}>Less</button>
@@ -34,8 +36,11 @@ const Control = () => {
             <button className="ingrBtn" onClick={() => HandleIngredients(meat, 3, meat, setMeat,'meat', price, setPrice)} >More</button>
         </div>
         <button className='order-btn' onClick={() => {
-              alert(`Total Payable Amount is = $${price}`)
-            }}>SIGN UP TO ORDER</button>
+              alert(`Your total bill for order is = $${price}`)
+            }}>Sign up to order</button>
+        </div>
+
+
     </div>
   )
 }

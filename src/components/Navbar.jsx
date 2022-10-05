@@ -1,10 +1,10 @@
 import React from 'react'
-import '../stylesheets/navbar.css'
+import '../assets/stylesheets/navbar.css'
 
 const Navbar = () => {
   return (
     <div className="topnav">
-      <a href="login">Login</a>
+      <a href="signup">Login</a>
       <a className="active" href="/">Burger Builder</a>
     </div>
   )

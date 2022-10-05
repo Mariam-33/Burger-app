@@ -1,5 +1,5 @@
 import React from 'react';
-import error404 from '../assets/error404.png';
+import error404 from '../assets/images/error404.png';
 
 const NoPage = () => {
     return (
