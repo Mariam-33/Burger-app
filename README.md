@@ -1,6 +1,7 @@
 # Burger App
 
-This project Burger app was developed in REACT.It allows user to create the burger with the choice of their own toppings
+This project Burger app was developed in REACT.It allows user to create the burger with the choice of their own toppings.
+The deployed application can be found at https://clinquant-cobbler-b3ce95.netlify.app/
 
 ## Available Scripts
 
